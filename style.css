@@ -1,1 +1,55 @@
-
+body{
+    margin:0;
+}
+header{
+    justify-content: space-between;
+    background-color:rgb(107, 40, 13);
+    display: flex;
+}
+nav a {
+      float: left;
+      text-align: center;
+      padding: 25px 20px;
+      color: white;
+      text-decoration: none;
+}
+nav a:hover {
+      background-color: crimson;
+}
+.Home {
+    text-align: center;
+    height: 800px;
+    background-color: white;
+}
+.large-text{
+    font-size: 30px;
+}
+.go{
+    padding: 10px 25px;
+    text-decoration: none;
+    color: rgb(236, 141, 7);
+}
+.go:hover{
+    color:rgb(92, 18, 5);
+    background-color: coral;
+    transition: 0.25;
+}
+.shop-now{
+    font-size: 15px;
+}
+.About { 
+    height: 800px; 
+    background-color: rgb(184, 92, 92);
+}
+.Product{ 
+    height: 800px; 
+    background-color: black;
+}
+.Contact{
+    height: 800px; 
+    background-color: rgb(194, 14, 14);
+}
+footer {
+    height: 100px;
+    background-color: black;
+}
