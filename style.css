@@ -2,54 +2,141 @@ body{
     margin:0;
 }
 header{
-    justify-content: space-between;
-    background-color:rgb(107, 40, 13);
     display: flex;
+    top: 0;
+    width: 100%;
+    background-color:rgb(107, 40, 13);
+    justify-content: space-between;
+    position: flex;
+    z-index: 1;
+    color: white;
 }
-nav a {
+nav a{
       float: left;
       text-align: center;
+      font-size: 20px;
       padding: 25px 20px;
       color: white;
       text-decoration: none;
 }
-nav a:hover {
+nav a:hover{
       background-color: crimson;
 }
-.Home {
+section.Home{
+    background: url("three-layers-pastel-colored-candy-600nw-2470315229.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 100px;
     text-align: center;
     height: 800px;
-    background-color: white;
 }
-.large-text{
-    font-size: 30px;
+section.Home .underline{
+    font-size: 24px;
+    line-height: 2px;
 }
-.go{
+section.Home .button1{
+    font-family: arial black;
+    display: inline-block;
+    border: #e91e63 5px outset;
     padding: 10px 25px;
+    background-color: #f06292;
+    width: 150px;
+    height: 50px;
+    align-content: center;
     text-decoration: none;
-    color: rgb(236, 141, 7);
 }
-.go:hover{
-    color:rgb(92, 18, 5);
-    background-color: coral;
-    transition: 0.25;
+section.Home .button1:hover{
+    border: #e91e63 10px inset;
+    box-shadow: black;
+    background-color: #f06292;
+    transition: 0.65s;
+    text-decoration: none;
 }
-.shop-now{
-    font-size: 15px;
+section.Home .shop-now{
+    font-size: 20px;
+    color: black;
 }
-.About { 
-    height: 800px; 
-    background-color: rgb(184, 92, 92);
+section.About{ 
+    background: url("360_F_179701783_154IIddvmqCUmroar72enEDNbgTbjaCa.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 90px;
+    height: 600px; 
 }
-.Product{ 
-    height: 800px; 
-    background-color: black;
+section.About img{
+    width: 400px;
+    align-content: center;
+}
+section.About p{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section.About .button2{
+    font-family: arial black;
+    display: inline-block;
+    border: #e91e63 5px outset;
+    padding: 10px 25px;
+    background-color: #f06292;
+    width: 150px;
+    height: 50px;
+    align-content: center;
+    text-decoration: none;
+}
+section.About .button2:hover{
+    border: #e91e63 10px inset;
+    box-shadow: black;
+    background-color: #f06292;
+    transition: 0.65s;
+    text-decoration: none;
+}
+section.About .shop-now{
+    font-size: 20px;
+    color: black;
+}
+section.Product{ 
+    background: url("unnamed.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 1200px;
+}
+section.Product .items{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+section.Product .items .card{
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    width: 200px;
+    height: 400px;
+    margin: 10px;
+}
+section.Product .items .card img{
+    width: 100%;
+}
+section.Product .items .card a{
+    color: black;
+    padding: 5px 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
 }
 .Contact{
-    height: 800px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 20px 20px;
+    height: 600px; 
     background-color: rgb(194, 14, 14);
 }
 footer {
-    height: 100px;
+    height: 50px;
     background-color: black;
 }
