@@ -104,19 +104,27 @@ section.Product{
     background-attachment: fixed;
     height: 1200px;
 }
+section.Product .product1{
+    font-size: 45px;
+    color: antiquewhite;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
 section.Product .items{
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 50px;
+    padding-top: 60px;
 }
 section.Product .items .card{
     background-color: white;
     text-align: center;
     padding: 5px;
     width: 200px;
-    height: 400px;
-    margin: 10px;
+    height: 450px;
+    margin: 15px;
 }
 section.Product .items .card img{
     width: 100%;
