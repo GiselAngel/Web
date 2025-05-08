@@ -58,7 +58,7 @@ section.Home .shop-now{
     color: black;
 }
 section.About{ 
-    background: url("360_F_179701783_154IIddvmqCUmroar72enEDNbgTbjaCa.jpg");
+    background: url("pngtree-fun-cute-blue-spiral-line-background-image_538223.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -102,7 +102,8 @@ section.Product{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 1200px;
+    padding-top: 20px;
+    height: 1300px;
 }
 section.Product .product1{
     font-size: 45px;
@@ -110,7 +111,7 @@ section.Product .product1{
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 100px;
+    padding-top: 70px;
 }
 section.Product .items{
     justify-content: center;
@@ -136,15 +137,36 @@ section.Product .items .card a{
     box-shadow: 0px 0px 3px;
     border-radius: 20px;
 }
-.Contact{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    padding: 20px 20px;
+section.Contact{
+    background-color: black;
     height: 600px; 
-    background-color: rgb(194, 14, 14);
+}
+section.Contact .card{
+    margin: auto;
+    color: white;
+    text-align: center;
+    padding-top:100px;
+    width: 400px;
+}
+section.Contact .card img{
+    padding-top: 50px;
+    width: 200px;
 }
 footer {
     height: 50px;
-    background-color: black;
+    background-color: grey;
+}
+footer .medsos{
+    text-align: center;
+    padding-top: 10px;
+}
+footer .medsos a{
+    color: white;
+    font-size: 20px;
+    padding: 10px 15px;
+}
+footer .medsos a:hover{
+    color: black;
+    font-size: 20px;
+    padding: 10px 15px;
 }
