@@ -7,7 +7,7 @@ header{
     width: 100%;
     background-color:rgb(107, 40, 13);
     justify-content: space-between;
-    position: flex;
+    position: fixed;
     z-index: 1;
     color: white;
 }
@@ -120,15 +120,18 @@ section.Product .items{
     padding-top: 60px;
 }
 section.Product .items .card{
-    background-color: white;
+    background-color: rgb(232, 210, 158);
     text-align: center;
+    border-radius: 15px;
     padding: 5px;
     width: 200px;
     height: 450px;
     margin: 15px;
 }
 section.Product .items .card img{
-    width: 100%;
+    padding-top: 10px;
+    border-radius: 20px;
+    width: 90%;
 }
 section.Product .items .card a{
     color: black;
